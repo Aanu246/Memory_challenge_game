@@ -16,7 +16,6 @@ $(document).keypress(function() {
 
 $(".btn").click(function() {
   var userChosenColour = $(this).attr("id");
-  alert("You clicked " + userChosenColour);
   userClickedPattern.push(userChosenColour);
   //console.log(userClickedPattern);
   playSound(userChosenColour);
